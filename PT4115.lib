@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3  Date: Wed 3 Feb 2016 04:43:55 PM GMT
+#encoding utf-8
+#
+# PT4115 LED driver
+# URL: http://kicadcloud.com/schematicSymbol/85
+#
+DEF PT4115-SOT89-5 U 0 40 Y Y 1 F N
+F0 "U" 0 -300 60 H V C CNN
+F1 "PT4115-SOT89-5" 0 300 60 H V C CNN
+DRAW
+S -250 200 250 -200 0 1 0 N
+X SW 1 450 -100 200 L 50 50 1 1 C
+X GND 2 -450 -100 200 R 50 50 1 1 P
+X DIM 3 -450 100 200 R 50 50 1 1 I
+X CSN 4 450 0 200 L 50 50 1 1 I
+X VIN 5 450 100 200 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
